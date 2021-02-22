@@ -46,7 +46,7 @@ return [
             'password' => '36ec51b7a1dbbe',
             'timeout' => null,
             // 'auth_mode' => null,
-            'auth_mode' => LOGIN,
+            'auth_mode' => null,
         ],
 
         'ses' => [
