@@ -44,7 +44,7 @@ return [
             // 'username' => env('MAIL_USERNAME'),
             // 'password' => env('MAIL_PASSWORD'),
             'username' => 'whitea0888@gmail.com',
-            'password' => 'spamAcc1',
+            'password' => 'nientzinbtsjlrqu',
             'timeout' => null,
             'auth_mode' => null,
         ],
