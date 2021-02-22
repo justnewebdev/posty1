@@ -37,7 +37,7 @@ return [
         'smtp' => [
             'transport' => 'smtp',
             // 'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
-            'host' => 'smtp.googlemail.com',
+            'host' => 'smtp.gmail.com',
             'port' => 465,
             // 'encryption' => env('MAIL_ENCRYPTION', 'tls'),
             'encryption' => 'ssl',
