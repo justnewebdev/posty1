@@ -36,11 +36,15 @@ return [
     'mailers' => [
         'smtp' => [
             'transport' => 'smtp',
-            'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
-            'port' => env('MAIL_PORT', 2525),
-            'encryption' => env('MAIL_ENCRYPTION', 'tls'),
-            'username' => env('MAIL_USERNAME'),
-            'password' => env('MAIL_PASSWORD'),
+            // 'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
+            'host' => 'smtp.mailtrap.io',
+            'port' => 2525
+            // 'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+            'encryption' => 'tls',
+            // 'username' => env('MAIL_USERNAME'),
+            // 'password' => env('MAIL_PASSWORD'),
+            'username' => '52d63108089b4f',
+            'password' => '36ec51b7a1dbbe',
             'timeout' => null,
             'auth_mode' => null,
         ],
