@@ -38,7 +38,7 @@ return [
             'transport' => 'smtp',
             // 'host' => env('MAIL_HOST', 'smtp.mailtrap.io'),
             'host' => 'smtp.mailtrap.io',
-            'port' => 2525
+            'port' => 2525,
             // 'encryption' => env('MAIL_ENCRYPTION', 'tls'),
             'encryption' => 'tls',
             // 'username' => env('MAIL_USERNAME'),
