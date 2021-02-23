@@ -12,7 +12,7 @@
           <div class="p-3">
             Untuk mencoba fungsi CRUD Post secara cepat tanpa <a href={{ route('register') }}><b>register</b></a> terlebih dahulu. gunakan akun dummy berikut ini:
             <br><br>
-            <button id="btnSampleLogin" class="px-3 py-2 bg-green-300 mb-3">Show/Hide</button>
+            <button id="btnSampleLogin" class="px-3 py-2 bg-blue-500 text-white rounded-lg mb-3">Show/Hide</button>
             <div id="sampleLogin" class="hidden">
             - budi@abcd.com : 123456
             <br>
