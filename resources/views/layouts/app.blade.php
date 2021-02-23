@@ -6,6 +6,9 @@
     <title>Posty</title>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/secondary.css') }}" rel="stylesheet">
+
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="{{ asset('js/secondary.js') }}"></script>
   </head>
   <body class="bg-gray-200 text-gray-800">
     <nav class="p-6 bg-white flex justify-between mb-6">
